@@ -1,26 +1,64 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 50px;
-    background-color: #f0f0f0;
+    background-color: lightgray;
+    padding: 10px;
 }
 
 h1 {
-    color: #333;
-    margin-bottom: 20px;
+    color: black;
+    margin-bottom: 10px;
 }
 
-button {
-    font-size: 18px;
-    padding: 10px 20px;
+p {
+    margin: 10px 0;
+    color: dimgray;
+    font-size: 14px;
+}
+
+.carillon {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
-    background-color: #4CAF50;
+}
+
+.instrument-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.instrument-btn {
+    font-size: 14px;
+    padding: 6px 12px;
     color: white;
     border: none;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 28px;
 }
 
+#instrument_1{ background-color: orange; }
+#instrument_2 { background-color: yellow; }
+#instrument_3 { background-color: brown; }
+#instrument_4 { background-color: lime; }
+#instrument_5 { background-color: aqua; }
+#instrument_6 { background-color: blue; }
+#instrument_7 { background-color: purple; }
+#instrument_8 { background-color: green }
+#instrument_9 { background-color: crimson; }
+#instrument_10 { background-color: red; }
+
 button:hover {
-    background-color: #45a049;
+    opacity: 0.8;
 }
