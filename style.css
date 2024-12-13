@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+    color: dimgray;
+    font-size: 14px;
+}
+
+.carillon {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.instrument-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.instrument-btn {
+    font-size: 14px;
+    padding: 6px 12px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 28px;
+}
+
+#instrument_1{ background-color: orange; }
+#instrument_2 { background-color: yellow; }
+#instrument_3 { background-color: brown; }
+#instrument_4 { background-color: lime; }
+#instrument_5 { background-color: aqua; }
+#instrument_6 { background-color: blue; }
+#instrument_7 { background-color: purple; }
+#instrument_8 { background-color: green }
+#instrument_9 { background-color: crimson; }
+#instrument_10 { background-color: red; }
+
+button:hover {
+    opacity: 0.8;
+}
